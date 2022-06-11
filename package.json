@@ -1,0 +1,36 @@
+{
+  "name": "solicitudes-express-api",
+  "version": "1.0.0",
+  "description": "Solicitudes-umg",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edfern/def-v_solicitudes.git"
+  },
+  "keywords": [
+    "solicitudes"
+  ],
+  "author": "def-v.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edfern/def-v_solicitudes/issues"
+  },
+  "homepage": "https://github.com/edfern/def-v_solicitudes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
